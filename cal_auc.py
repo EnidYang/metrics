@@ -1,12 +1,9 @@
 """ AUC metric
-    AUC is frequently used to evaluate machine learning models
-    like logistic regression. Several methods are used to calculate it. 
-    This one is simple and more understandable: The expectation that a
-    uniformly drawn random positive is ranked before a uniformly drawn
+    AUC is frequently used to evaluate machine learning models like logistic regression. Several methods are used to calculate it. 
+    This one is simple and more understandable: The expectation that a uniformly drawn random positive is ranked before a uniformly drawn
     random negative.
 
-    Since the code origins from evaluating click through rate prediction 
-    model, we keep the variable name like pv_num and click_num, referring
+    Since the code origins from evaluating click prediction model, we keep the variable name pv_num and click_num, referring
     to the number of all instances and the positive.
 """
 
